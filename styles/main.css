@@ -344,8 +344,74 @@ nav > span {
     line-height: 20px;
 }
 
+.cardBoxes {
+    display: flex;
+    width: 1040px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.cardTexts {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.cardTexts > h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.cardTexts > p {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.cards > div {
+    display: flex;
+    background-color: #191919;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.cardHeadText {
+    display: flex;
+    background-color: #191919;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.cardHeadText > span {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cardHeadText > h4 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 800;
+}
+
 .check-list li {
     list-style: none;
+    background-color: #191919;
     position: relative;
     padding-left: 30px;
     margin-bottom: 10px;
@@ -360,4 +426,55 @@ nav > span {
     top: 0;
     font-size: 20px;
     color: #FF4500;
+}
+
+.bttnBuy {
+    display: flex;
+    padding: 20px 108px 21px 108px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: #FFF;
+    border: 1.5px solid #FF371A;
+    background-color: #FF371A;
+}
+
+.bttnNow {    
+    display: flex;
+    padding: 20px 108px 21px 108px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background-color: #191919;
+    border: 1.5px solid #FF371A;
+    color: #FFF;
+}
+
+.cardsfoot {
+    display: flex;
+    align-items: flex-start;
+    gap: 82px;
+    align-self: stretch;
+}
+
+.cardsfoot > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    flex: 1 0 0;
+}
+
+.cardsfoot > div > h5 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cardsfoot > div > p {
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 700;
 }
